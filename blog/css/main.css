@@ -224,3 +224,66 @@ footer p {
 .blogpost-main-container article h1 {
     font-size: 35px;
 }
+
+.contact-main-container {
+    background-color: #e6e9ed;
+    height: 210px;
+    width: 100%;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-main-container .contact-left img {
+    width: 110px;
+    height: 110px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+
+.contact-main-container .contact-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.contact-left div {
+    padding-top: 65px;
+   
+}
+
+.contact-left a {
+    background-color: red;
+    font-size: 20px;
+    
+}
+
+.contact-main-container .contact-right img {
+    width: 110px;
+    height: 110px;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.contact-main-container .contact-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.contact-right div {
+    padding-top: 65px;
+   
+}
+
+.contact-right a {
+    background-color: red;
+    font-size: 20px;
+    
+}
